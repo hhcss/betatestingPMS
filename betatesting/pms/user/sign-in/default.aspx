@@ -7,6 +7,3 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <uc1:pmssignin runat="server" id="pmssignin" />
 </asp:Content>
-<h4>a</h4>
-<h4>b</h4>
-<h4>d</h4>
