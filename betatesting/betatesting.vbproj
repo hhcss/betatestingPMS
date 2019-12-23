@@ -204,6 +204,12 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\Antlr3.Runtime.dll" />
+    <Content Include="bin\Antlr3.Runtime.pdb" />
+    <Content Include="bin\AspNet.ScriptManager.bootstrap.dll" />
+    <Content Include="bin\AspNet.ScriptManager.jQuery.dll" />
+    <Content Include="bin\betatesting.dll" />
+    <Content Include="bin\betatesting.pdb" />
     <Content Include="bin\ClosedXML.dll" />
     <Content Include="bin\ClosedXML.pdb" />
     <Content Include="bin\ClosedXML.xml" />
@@ -786,6 +792,7 @@
     <Content Include="fckeditor\_samples\php\sampleposteddata.php" />
     <Content Include="fckeditor\_samples\py\sample01.py" />
     <Content Include="fckeditor\_samples\py\sampleposteddata.py" />
+    <Content Include="bin\betatesting.dll.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="pms\user\ascx\change-password.ascx" />
     <Content Include="pms\user\ascx\Doctors.ascx" />
@@ -804,7 +811,9 @@
     <Content Include="pms\user\doctors\view-patient.aspx" />
     <Content Include="pms\user\forgot-password\default.aspx" />
     <Content Include="pms\user\doctors\manage-patients.aspx" />
+    <Content Include="pms\user\Patients\details.aspx" />
     <Content Include="pms\user\Patients\list.aspx" />
+    <Content Include="pms\user\Patients\procedure.aspx" />
     <Content Include="pms\user\Patients\Registration.aspx" />
     <Content Include="pms\user\Procedures\default.aspx" />
     <Content Include="pms\user\Procedures\single.aspx" />
@@ -1094,11 +1103,25 @@
       <DependentUpon>manage-patients.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="pms\user\Patients\details.aspx.designer.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pms\user\Patients\details.aspx.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="pms\user\Patients\list.aspx.designer.vb">
       <DependentUpon>list.aspx</DependentUpon>
     </Compile>
     <Compile Include="pms\user\Patients\list.aspx.vb">
       <DependentUpon>list.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="pms\user\Patients\procedure.aspx.designer.vb">
+      <DependentUpon>procedure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pms\user\Patients\procedure.aspx.vb">
+      <DependentUpon>procedure.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="pms\user\Patients\Registration.aspx.designer.vb">

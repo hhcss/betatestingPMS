@@ -61,6 +61,12 @@ Public Class doctor_patient_procedure
 
                     dsprocedurecyle.Insert(lblpatientid.Text, procedureid, TxtFromDate1.Text, TxtFromDate1.Text, "Y", Now(), "1")
 
+
+                    lbproducts.SelectedIndex = -1
+                    TxtFromDate1.Text = ""
+                    txtcycles.Text = ""
+                    txtfree.Text = ""
+                    txtinterval.Text = ""
                 End If
 
 

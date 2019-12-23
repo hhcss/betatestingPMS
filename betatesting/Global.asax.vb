@@ -28,7 +28,14 @@ Public Class Global_asax
         routes.MapPageRoute("doctorpatientdetails", "pms/user/doctor-patient-details-{patientid}", "~/pms/user/doctors/doctor-patient-details.aspx")
 
 
+
         routes.MapPageRoute("doctorpatientprocedure", "pms/user/doctor-patient-procedure-{patientid}", "~/pms/user/doctors/doctor-patient-procedure.aspx")
+
+        routes.MapPageRoute("patientdetails", "pms/user/patient-details-{patientid}", "~/pms/user/patients/details.aspx")
+
+
+
+        routes.MapPageRoute("patientprocedure", "pms/user/patient-procedure-{patientid}", "~/pms/user/patients/procedure.aspx")
 
         routes.MapPageRoute("proceduresingle", "pms/user/procedures/{procedureid}", "~/pms/user/procedures/single.aspx")
 
