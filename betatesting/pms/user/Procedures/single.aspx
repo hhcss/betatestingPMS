@@ -53,7 +53,7 @@
 
 <div class="col-md-4 text-bg-b">
 <div class="col-md-12 text-bg1">
-<p><asp:TextBox ID="txtphonenumber" runat="server"  placeholder="Enter Phone Number" class="form-control2"></asp:TextBox></asp:TextBox></p>
+<p><asp:TextBox ID="txtphonenumber" runat="server"  placeholder="Enter Phone Number" class="form-control2"></asp:TextBox>/p>
 </div>
 </div>
 
