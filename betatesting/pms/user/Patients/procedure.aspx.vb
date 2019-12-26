@@ -19,11 +19,8 @@ Public Class procedure
             lbproducts.DataTextField = "brandcomposition"
             lbproducts.DataValueField = "BrandId"
             lbproducts.DataBind()
-
             rptpatient.DataSource = dspatientdetails.GetDataByid(lblpatientid.Text)
             rptpatient.DataBind()
-
-
             GridView1.DataSource = dsproceduredata.GetDataBypatientid(lblpatientid.Text)
             GridView1.DataBind()
 
