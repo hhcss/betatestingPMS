@@ -820,6 +820,7 @@
     <Content Include="pms\user\profile\default.aspx" />
     <Content Include="pms\user\register\default.aspx" />
     <Content Include="pms\user\sign-in\default.aspx" />
+    <Content Include="pms\user\WebForm1.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -1165,6 +1166,13 @@
     <Compile Include="pms\user\sign-in\default.aspx.vb">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pms\user\WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pms\user\WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
